@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container{
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menus{
+  display: flex;
+  gap: 60px;
+}
+
+.menus li a{
+  text-decoration: none;
+  color: white;
+}
+
+.title{
+  text-align: center;
+  font-size: 23px;
+  color: #b45542;
+}
+
+.cardlar{
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.card{
+  width: 340px;
+}
+
+.card-title{
+  font-size: 18px;
+  font-weight: 400;
+  color: #913c2b;
+  margin-top: 30px;
+}
+
+.card-price{
+  color: #B45F4D;
+  margin-top: 10px;
+}
+
+#card{
+  background-color: #ffffff;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+}
+
+.malumotlar h1{
+  font-size: 52px;
+  line-height: 52px;
+}
+
+.malumotlar p{
+  font-size: 20px;
+  margin-top: 30px;
+  line-height: 28px;
+}
+
+.malumotlar button{
+  width: 312px;
+  height: 64px;
+  margin-top: 30px;
+  font-size: 24px;
+  color: white;
+  background-color: #ff0026;
+  border-radius: 10px;
+  border: none;
+}
+
+.moshina{
+  width: 616px;
+}
+
+#hero{
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 200px;
+}
+
+.hero-title{
+  font-size: 110px;
+  color: white;
+}
+
+.hero-desc{
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 30px;
+}
+
+.hero-btn{
+  width: 180px;
+  height: 52px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #F57520;
+  color: white;
+}
+
+#velik{
+  background-image: url("../images/uchmoq.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 533px;
+}
+
+.cards{
+  display: flex;
+  gap: 30px;
+}
+
+#cardlar{
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.card-title{
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.rasm{
+  box-shadow: 10px 10px 10px rgb(85, 85, 85);
+}
+
+
+#save{
+  background-image: url("../images/tuzatish.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 48px;
+  padding-bottom: 64px;
+}
+
+.save-links{
+  display: flex;
+}
+
+.save-links li a{
+  color: white;
+}
+
+.save-title{
+  font-size: 64px;
+  color: white;
+  margin-top: 64px;
+}
+
+#map{
+  background-image: url("../images/map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+#blog{
+  padding-top: 48px;
+  padding-bottom: 160px;
+}
+
+.blog-cards{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.blog-card{
+  background-color: #101010;
+  width: 400px;
+  padding-bottom: 35px;
+  
+}
+
+.rasmp{
+   margin-top: 24px;
+   margin-left: 27px;
+   color: white;
+}
+
+
+.rasmpp{
+  margin-top: 8px;
+  margin-left: 27px;
+  color: #F57520;
+}
+
+.rasmppp{
+  margin-top: 16px;
+  margin-left: 27px;
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+}
+
+.rasma{
+  margin-top: 18px;
+  margin-left: 27px;
+  color: white;
+  display: inline-block;
+}
